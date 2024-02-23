@@ -10,9 +10,7 @@
 
 # Declaration of functions
 
-echo "please enter the name of process:"
-read procname
-kill $(ps aux | sleep  $procname | sleep -v sleep | awk '{print $2}')
+
 
 # Main
 
