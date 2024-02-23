@@ -7,18 +7,16 @@
 
 # Declaration of variables
 
-num1=36
-num2=124
+
 
 # Declaration of functions
-
-add_two_numbers() {
-    sum=$(($num1 + $num2))
-    echo $sum
+loopingfunction(){
+for ((i= 1; i <= 3; i++)); do
+echo    this is iteration $i
+done
 }
-
 # Main
+loopingfunction
 
-add_two_numbers
 
 # End
