@@ -7,16 +7,13 @@
 
 # Declaration of variables
 
-directories=("dir1" "dir2" "dir3" "dir4")
+# I'm so confused, even reading the instructions or explanations, I have no idea what to start writing and where to begin.
+# I will come back tomorrow to work on this more, but I've spent 6 hours trying to figure this out today and still dont understand anything.
 
 
 # Declaration of functions
 
-for i in "${directories[@]}" 
-do
-    mkdir "$i" 
-    touch "$i/$i"textfile.txt""
-done
+
 #
 # Main
 
