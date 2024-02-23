@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script Name:                  Ops Challenge Class 04
+# Script Name:                  Ops Challenge Class 05
 # Author:                       Becca
-# Date of latest revision:      02/22/2024
+# Date of latest revision:      02/23/2024
 # Purpose:                      
 
 # Declaration of variables
