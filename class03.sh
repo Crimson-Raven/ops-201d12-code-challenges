@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script Name:                  Class 03 Script 1
+# Script Name:                  Ops Challenge Class 03
 # Author:                       Becca
 # Date of latest revision:      02/21/2024
 # Purpose:                      
