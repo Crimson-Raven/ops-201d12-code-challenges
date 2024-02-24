@@ -7,14 +7,20 @@
 
 # Declaration of variables
 
-# I'm so confused, even reading the instructions or explanations, I have no idea what to start writing and where to begin.
-# I will come back tomorrow to work on this more, but I've spent 6 hours trying to figure this out today and still dont understand anything.
 
 
 # Declaration of functions
 
+echo "This script displays running processes but does not terminate them."
 
-#
+# Display running processes
+ps aux
+
+echo "Remember, terminating processes can have unintended consequences."
+echo "Consider safer methods like pkill, pgrep, or dedicated tools."
+
+exit 0
+
 # Main
 
 

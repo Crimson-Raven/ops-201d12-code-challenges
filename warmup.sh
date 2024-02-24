@@ -7,7 +7,7 @@
 
 # Declaration of variables
 
-
+ 
 
 # Declaration of functions
 
