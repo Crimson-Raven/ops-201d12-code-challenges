@@ -12,16 +12,22 @@
 
 # Declaration of functions
 
-if [ -d "dir5" ]; then
-  echo "Directory exists."
-   mkdir -p "dir5"
-else  mkdir dir5
-  echo "Directory does not exist."
-fi
+function create_if_not_exists() {
+  for dir5; do
+    if [[ ! -e "$dir5" ]]; then
+      if [[ -d "$dir5" ]]; then
+        mkdir -p "$dir5"
+      else
+        touch "$dir5"
+      fi
+      echo "Created path: $dir5"
+    fi
+  done
+}
 
+create_if_not_exists "${dir5[@]}"
 
 # Main
-
 
 
 # End
