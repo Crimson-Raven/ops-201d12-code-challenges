@@ -8,15 +8,23 @@
 # Declaration of variables
 
 
-
-company=opticsvr
-
 # Declaration of functions
 
+function create_if_not_exists() {
+  for dir5; do
+    if [[ ! -e "$dir5" ]]; then
+      if [[ -d "$dir5" ]]; then
+        mkdir -p "$dir5"
+      else
+        touch "$dir5"
+      fi
+      echo "Created path: $dir5"
+    fi
+  done
+}
 
-
+create_if_not_exists "${dir5[@]}"
 # Main
-echo $company
-last
-ls /home/becca
+
+
 # End
