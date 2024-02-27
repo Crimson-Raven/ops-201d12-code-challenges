@@ -5,24 +5,20 @@
 # Date of latest revision:      02/24/2024
 # Purpose:                      
 
-# Declaration of variables
-
-
-
-# Declaration of functions
-
-echo "This script displays running processes but does not terminate them."
-
 # Display running processes
-ps aux
 
-echo "Remember, terminating processes can have unintended consequences."
-echo "Consider safer methods like pkill, pgrep, or dedicated tools."
-
-exit 0
-
+show_processes() {
+    echo "Display running processes:"
+    top -n 1
+}
 # Main
+while true; do
+    echo "Enter PID to kill (to exit press Ctrl + C):"
+    read PID
+    kill $PID
 
-
+    echo "Press Ctrl + C to exit"
+    read -n 1
+done
 
 # End
