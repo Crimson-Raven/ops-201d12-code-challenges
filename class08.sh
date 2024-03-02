@@ -26,13 +26,7 @@ echo Folder structure and files created successfully!
 
 pause
 
-
-
-# Main
- 
-
 # End
-
 
 # Notes
 # @echo off: Hides the execution commands from the command line output.
