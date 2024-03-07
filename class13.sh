@@ -3,7 +3,8 @@
 # Script Name:                  Ops Challenge Class 13
 # Author:                       Becca
 # Date of latest revision:      03/06/2024
-# Purpose:                      
+# Purpose:                      Create a script that asks a user to type a domain, then displays information about the typed domain.
+#                               Operations that must be used include: whois, dig, host, nslookup
 
 sudo apt install whois
 
